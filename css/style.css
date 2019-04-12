@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-size: 16px;
+    background-color: #fff;
+    color: #212121;
+    min-width: 320px;
+    height: 100vh;
+    font-family: Verdana, sans-serif;
+}
+h1 {
+    font-size: 32px;
+    margin: 3rem 0;
+    text-align: center;
+    position: relative;
+}
+h1:after {
+    position: absolute;
+    content: '';
+    display: block;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -225px;
+    height: 1px;
+    width: 450px;
+    background-color: #adadad;
+}
+.content {
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 968px;
+    /* background-color: #fcfcfc; */
+}
+.block-links {
+    display: flex;
+    justify-content: center;
+
+}
+.block-links  a {
+    color: #212121;
+    margin: 20px 20px;
+    padding: 10px 20px;
+    border: 1px solid #adadad;
+}
+form {
+    padding: 20px;
+    margin: 0 auto;
+    width: 440px;
+    border-radius: 5px;
+    border: 1px solid #adadad;
+    background-color: #fefefe;
+}
+.input-group {
+    margin-bottom: 1rem;
+    vertical-align: middle;
+}
+input {
+    border-radius: 5px;
+    border: 1px solid #adadad;
+    height: 20px;
+    padding: 5px 15px;
+    width: 240px;
+}
+label {
+    width: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: right;
+    height: 100%;
+    cursor: pointer;
+}
+.file-container {
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    width: 240px;
+    height: 20px;
+    border: 1px solid #adadad;
+    background-color: silver;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.file-container [type=file] {
+    border: none;
+    padding: 0;
+    display: block;
+    font-size: 999px;
+    filter: alpha(opacity=0);
+    width: 272px;
+    height: 32px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.error {
+    margin: .5rem 0;
+    padding: 0 15px;
+    text-align: right;
+    color: #ff6161;
+}
+.btn {
+    display: block;
+    border: 1px solid #adadad;
+    padding: 5px 15px;
+    background-color: silver;
+    border-radius: 5px;
+    width: 200px;
+    margin: 2rem auto 0;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    transition: .2s all ease;
+}
+.btn:hover {
+    background-color: #858585;
+}
+.message {
+    text-align: center;
+    display: block;
+}
+.message a {
+    color: #0080c0;
+}
+.profile-info {
+    width: 290px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.profile-info .email {
+    display: block;
+    text-align: center;
+}
+.profile-info .photo {
+    max-width: 250px;
+    text-align: center;
+    width: auto;
+    max-height: 250px;
+    height: auto;
+    display: block;
+    margin: 2rem auto;
+    border: 2px solid silver;
+}
